@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+    <script>
+      function openGmail() {
+        window.open("https://mail.google.com/", "_blank");
+      }
+
+      function getPageURL() {
+        alert("Current URL: " + window.location.href);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>My Web Page</h1>
+    <button onclick="openGmail()">Open GMAIL</button>
+    <button onclick="getPageURL()">Get Page URL</button>
+  </body>
+</html>
