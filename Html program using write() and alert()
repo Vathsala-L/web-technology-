@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First JavaScript Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my web page!</h1>
+    <script>
+      // Use document.write() to output text to the page
+      document.write("<p>My name is John Doe and I'm a web developer.</p>");
+
+      // Use alert() to show a pop-up message
+      alert("Thanks for visiting my web page!");
+    </script>
+  </body>
+</html>
